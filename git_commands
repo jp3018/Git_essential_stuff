@@ -1,0 +1,7 @@
+GIT CONFIG COMMANDS (uses for defining structure of candiate)
+/*
+git config --global user.name "xyxixixix(Name)"
+git config --global user.email "xyz@gmail.com(email)"
+git config --list(displays the candiates email,name)
+*/
+

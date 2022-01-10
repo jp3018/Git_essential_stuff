@@ -5,3 +5,9 @@ git config --global user.email "xyz@gmail.com(email)"
 git config --list(displays the candiates email,name)
 */
 
+Commands for intializing a Repo
+
+/*
+ git init (intializes the current directory as git repo)
+ git init <Directory Name> (Intializes the Named Directory as Repo)
+ */

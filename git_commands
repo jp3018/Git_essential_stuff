@@ -1,13 +1,28 @@
-GIT CONFIG COMMANDS (uses for defining structure of candiate)
+Git config commands (uses for defining structure of candiate)
 /*
 git config --global user.name "xyxixixix(Name)"
 git config --global user.email "xyz@gmail.com(email)"
 git config --list(displays the candiates email,name)
 */
 
-Commands for intializing a Repo
+commands for intializing a Repo
 
 /*
  git init (intializes the current directory as git repo)
  git init <Directory Name> (Intializes the Named Directory as Repo)
  */
+ 
+commands for staging and commiting changes
+ 
+ /*
+  
+   git status (shows is there anything left in staging or commiting area)
+   git log (shows the commits that had done till now)
+   git add <file_name> (adds file to staging area)
+   git commit -m <commit_name> (commits the changes)
+   git commit -a -m <commit_name> = (add + commit)
+   git add --all ( adds all the files that have to be commited)
+   git reset HEAD^ (delets the previous commit)
+   
+  */
+  
